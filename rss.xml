@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Entire Newsroom</title>
+    <link>https://entire.io/news/</link>
+    <description>Latest news and press releases from Entire.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Mar 2026 02:45:25 +0000</lastBuildDate>
+    <atom:link href="https://entire.io/news/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Former GitHub CEO Thomas Dohmke launches Entire with a landmark $60 million seed round to build the world's next developer platform for the era of AI. Former GitHub CEO Thomas Dohmke launches Entire with a landmark $60 million seed round to build the world's next developer platform for the era of AI.</title>
+      <link>https://entire.io/news/former-github-ceo-thomas-dohmke-raises-60-million-seed-round</link>
+      <guid>https://entire.io/news/former-github-ceo-thomas-dohmke-raises-60-million-seed-round</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <description>Former GitHub CEO Thomas Dohmke launches Entire with a landmark $60 million seed round to build the world's next developer platform for the era of AI. Former GitHub CEO Thomas Dohmke launches Entire with a landmark $60 million seed round to build the world's next developer platform for the era of AI.</description>
+    </item>
+  </channel>
+</rss>

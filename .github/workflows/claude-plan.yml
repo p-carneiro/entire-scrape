@@ -15,6 +15,7 @@ jobs:
       contents: read
       issues: write
       pull-requests: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: anthropics/claude-code-action@v1

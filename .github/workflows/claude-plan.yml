@@ -23,22 +23,22 @@ jobs:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           show_full_output: true
           prompt: |
-      You are working on issue #${{ github.event.issue.number }} in the repository ${{ github.repository }}.
-
-      Issue title: ${{ github.event.issue.title }}
-
-      Issue body:
-      ${{ github.event.issue.body }}
-
-      Triggering comment (if any):
-      ${{ github.event.comment.body }}
-
-      Your task:
-      1. Explore the repo to understand the relevant code (use Read and Grep tools, not shell).
-      2. Draft a clear implementation plan in Markdown covering:
-         - Files you intend to change and why
-         - Approach, tradeoffs, alternatives considered
-         - Any open questions for the requester
-      3. Post the plan as a comment on issue #${{ github.event.issue.number }} using the GitHub API via `gh issue comment ${{ github.event.issue.number }} --body "..."`.
-      4. Do NOT write any code yet. Wait for plan approval.
-      5. After posting, add the label `plan-pending-review` to the issue using `gh issue edit ${{ github.event.issue.number }} --add-label "plan-pending-review"`.
+            You are working on issue #${{ github.event.issue.number }} in the repository ${{ github.repository }}.
+          
+            Issue title: ${{ github.event.issue.title }}
+          
+            Issue body:
+            ${{ github.event.issue.body }}
+          
+            Triggering comment (if any):
+            ${{ github.event.comment.body }}
+          
+            Your task:
+            1. Explore the repo to understand the relevant code (use Read and Grep tools, not shell).
+            2. Draft a clear implementation plan in Markdown covering:
+              - Files you intend to change and why
+              - Approach, tradeoffs, alternatives considered
+              - Any open questions for the requester
+            3. Post the plan as a comment on issue #${{ github.event.issue.number }} using the GitHub API via `gh issue comment ${{ github.event.issue.number }} --body "..."`.
+            4. Do NOT write any code yet. Wait for plan approval.
+            5. After posting, add the label `plan-pending-review` to the issue using `gh issue edit ${{ github.event.issue.number }} --add-label "plan-pending-review"`.

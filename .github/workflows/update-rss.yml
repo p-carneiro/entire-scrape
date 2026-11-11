@@ -22,7 +22,6 @@ jobs:
         run: |
           pip install playwright nest_asyncio
           playwright install chromium
-          playwright install-deps chromium
 
       - name: Run scraper
         run: python scrape_rss.py
